@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bb794b76-0132-45e1-a445-e97844de9e04/resourceGroups/rgAppInsights/providers/Microsoft.Web/sites/apmappins",
+    "appService.deploySubpath": "APM-Final\\dist\\APM"
+}
