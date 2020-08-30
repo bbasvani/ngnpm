@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppInsightsService } from './app-insights.service';
 
 @Component({
   selector: 'pm-root',
@@ -18,4 +19,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   pageTitle = 'Acme Product Management';
+
+  constructor(private appInsights: AppInsightsService) { }
 }
