@@ -18,7 +18,7 @@ import { AppInsightsService } from './app-insights.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle = 'Acme Product Management';
+  pageTitle = 'App Insights Demo';
 
   constructor(private appInsights: AppInsightsService) { }
 }
